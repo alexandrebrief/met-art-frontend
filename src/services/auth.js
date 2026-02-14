@@ -1,5 +1,5 @@
 // src/services/auth.js
-const API_URL = 'http://localhost:3000/api';
+const API_URL = '${import.meta.env.VITE_API_URL}/api';
 
 // Stocker le token
 export const setToken = (token) => {
