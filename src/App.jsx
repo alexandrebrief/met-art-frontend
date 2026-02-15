@@ -385,7 +385,7 @@ const fetchDepartmentArtworks = async (department) => {
                         {art.image ? (
                           <img src={art.image} alt={art.title} className="artwork-image" />
                         ) : (
-                          <div className="no-image"></div>
+                          <div className="no-image">Pas d'image</div>
                         )}
                         <button
                           onClick={(e) => toggleFavorite(art, e)}
